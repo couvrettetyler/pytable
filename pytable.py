@@ -21,8 +21,8 @@ class pytable():
 			self.first_data = False
 			first_line = ''
 			new_line = ''
-			for key, value in data:
-				headers.append(key)
+			for key, value in data.items():
+				self.headers.append(key)
 				first_line += str(key) + ','
 				new_line += str(value) + ','
 			first_line = first_line[:-1] + '\n'
