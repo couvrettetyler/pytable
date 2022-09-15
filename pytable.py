@@ -4,7 +4,7 @@ class pytable():
 		self.save_file = save_file
 		self.first_data = True
 		self.headers = []
-		self.rewrite = False
+		self.rewrite = True
 
 	def save(self):
 		if self.rewrite:
